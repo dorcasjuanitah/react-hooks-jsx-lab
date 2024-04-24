@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { name, city } from "../data/data";
-import Home from "../components/Home";
+import Home from "../components/Home.1";
 
 test("renders a div with the correct ID", () => {
   const { container } = render(<Home />);
